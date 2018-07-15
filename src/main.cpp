@@ -10,7 +10,7 @@
 int main(int argc, char* argv[])
 {
 	if (argc < 2) { // We expect 2 arguments: the program name, and at least one workin folder path
-		std::cout << "AttrActive - small CLI utility to copy ID3 tags to BEFS attributes
+		std::cout << "AttrActive - small CLI utility to copy ID3 tags to BEFS attributes" << std::endl;
 		std::cerr << "Usage: " << argv[0] << " Path to the work folders" << std::endl;
 		return 1;
 	}
