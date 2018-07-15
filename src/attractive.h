@@ -8,6 +8,8 @@
 #include <SupportDefs.h>
 #include <iostream>
 #include <string>
+#include <cstring>
 #include <vector>
+#include <sys/stat.h>
 
 #endif // _H_ATTRACTIVE_H
