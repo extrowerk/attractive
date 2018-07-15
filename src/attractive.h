@@ -1,9 +1,9 @@
 /*
- * Copyright 2015 Your Name <your@email.address>
+ * Copyright 2018 Extrowerk <zmizsei@eextrowerk.com>
  * All rights reserved. Distributed under the terms of the MIT license.
  */
-#ifndef _H
-#define _H
+#ifndef _H_ATTRACTIVE_H
+#define _H_ATTRACTIVE_H
 
 
 #include <SupportDefs.h>
@@ -17,4 +17,4 @@ private:
 };
 
 
-#endif // _H
+#endif // _H_ATTRACTIVE_H

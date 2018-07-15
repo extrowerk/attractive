@@ -67,12 +67,12 @@ LIBS = $(STDCPPLIBS)
 #	to the Makefile. The paths included are not parsed recursively, so
 #	include all of the paths where libraries must be found. Directories where
 #	source files were specified are	automatically included.
-LIBPATHS = 
+LIBPATHS = $(shell pkg-config --libs taglib)
 
 #	Additional paths to look for system headers. These use the form
 #	"#include <header>". Directories that contain the files in SRCS are
 #	NOT auto-included here.
-SYSTEM_INCLUDE_PATHS = 
+SYSTEM_INCLUDE_PATHS = $(shell pkg-config --cflags taglib)
 
 #	Additional paths paths to look for local headers. These use the form
 #	#include "header". Directories that contain the files in SRCS are
