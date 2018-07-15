@@ -5,16 +5,9 @@
 #ifndef _H_ATTRACTIVE_H
 #define _H_ATTRACTIVE_H
 
-
 #include <SupportDefs.h>
-
-
-class {
-public:
-								
-private:
-
-};
-
+#include <iostream>
+#include <string>
+#include <vector>
 
 #endif // _H_ATTRACTIVE_H
